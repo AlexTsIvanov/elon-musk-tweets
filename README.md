@@ -6,7 +6,7 @@ Twitter Data Visualization Web Application
 
 This Golang application downloads a json file and inserts the entries in MongoDB. 
 Several endpoints exist that provide the data from different query parameters.
-A React application exists that consumes this data and plots it in different charts using the Highcharts library.
+Then a React application consumes this data and visualizes it in different charts using the Highcharts library.
 
 ## Commands
 
