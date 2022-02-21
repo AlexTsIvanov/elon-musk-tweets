@@ -29,7 +29,6 @@ func (h *Handler) TweetsPerDay(rw http.ResponseWriter, r *http.Request) {
 		http.Error(rw, "Unable to marshal json", http.StatusInternalServerError)
 		return
 	}
-	rw.WriteHeader(http.StatusOK)
 }
 
 func (h *Handler) RetweetsPerDay(rw http.ResponseWriter, r *http.Request) {

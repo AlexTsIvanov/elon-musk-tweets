@@ -47,6 +47,7 @@ func main() {
 	db := client.Database("elon-musk")
 
 	if *newEntries {
+		log.Println("Downloading data and inserting into database")
 		err = dbpopulation.InsertEntriesInDB(db, url, fileName)
 		if err != nil {
 			log.Fatal(err)
