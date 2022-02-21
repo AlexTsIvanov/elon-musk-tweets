@@ -13,6 +13,6 @@ Then a React application consumes this data and visualizes it in different chart
 To start the backend use "go run ./main.go -importdb". ('importdb' flag is used to populate the database)
 If the database is already populated use simply "go run ./main.go".
 
-To start the frontend use "npm start" in 'elon-client' directory.
+To start the frontend use "npm start" in 'client/elon-client' directory.
 
 The frontend is available at 'localhost:3000' and the backend on 'localhost:9090.
